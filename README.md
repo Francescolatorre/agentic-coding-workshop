@@ -1,99 +1,97 @@
-# Agentic Coding Workshop - Game Results Tracker
+# 🧠 Agentic Coding Workshop – Game Results Tracker (2h Edition)
 
-## Event Overview
-Welcome to our 4-hour agentic coding workshop! Teams will compete to build the best game results tracking platform using AI-powered development tools.
+## Overview
 
-**Duration**: 4 hours (12:00 - 16:00)  
-**Participants**: ~25 developers in 5 teams  
-**Challenge**: Build a game results tracking platform using agentic coding techniques
+Teams compete to **build a game results tracking app** using **AI-powered coding tools** and the **agentic coding mindset**.
 
-## Workshop Schedule
-
-| Time | Duration | Activity |
-|------|----------|----------|
-| 12:00 - 12:30 | 30 min | **Introduction to Agentic Coding** <br> Concepts, tools, and techniques |
-| 12:30 - 12:45 | 15 min | **Team Formation** <br> Self-organize into balanced teams |
-| 12:45 - 14:00 | 75 min | **Coding Session 1** <br> Initial development sprint |
-| 14:00 - 14:15 | 15 min | **Mid-Workshop Review** <br> Progress check & presentation reminder |
-| 14:15 - 15:20 | 65 min | **Coding Session 2** <br> Finalize prototype & prepare demo |
-| 15:20 - 15:45 | 25 min | **Team Presentations** <br> 5 minutes per team |
-| 15:45 - 16:00 | 15 min | **Judging & Awards** <br> Winner announcement |
-
-## Team Formation Guidelines
-
-### AI Experience Levels
-Each team should include members from different experience levels:
-
-1. **Beginner**: Does not use AI tools for development
-2. **Casual User**: Occasionally uses ChatGPT for problem-solving
-3. **Regular User**: Uses AI coding assistants in IDEs (Copilot, Cursor) or CLI tools (Claude Code)
-4. **Advanced User**: Leverages multiple agents, parallel processing, and advanced AI workflows
-
-**Important**: Teams must be balanced across these experience levels for fair competition.
-
-## The Challenge
-
-### Objective
-Build a platform for tracking game results with scoreboards and rankings. See [SPEC.md](SPEC.md) for detailed requirements.
-
-## Handout
-If you get stuck or it's unclear how to continue, try the [handout.md](handout.md). 
-
-### Core Requirements (MVP)
-- User creation with username
-- Game creation with image upload
-- Result submission
-- Basic scoreboard display
-- Game browsing
-
-### Evaluation Criteria
-
-#### Functional (50%)
-- Core features work correctly
-- User workflows are complete
-- Data persists properly
-
-#### Non-Functional (50%)
-- **Code Quality**: Clean, maintainable architecture
-- **Design**: Thoughtful system design and extensibility
-- **Innovation**: Creative solutions and unique features
-- **AI Usage**: Effective use of agentic coding techniques
-
-## Presentation Guidelines
-
-Each team will present for 5 minutes covering:
-1. **Demo**: Show your working application
-2. **Architecture**: AI-generated summary of your solution
-3. **AI Techniques**: How you used agentic coding
-4. **Unique Features**: What sets your solution apart
-
-## Prizes
-
-Top teams will be awarded based on combined functional and non-functional scores. Prizes will be announced at the event conclusion.
-
-## Resources
-
-- **Requirements**: See [SPEC.md](SPEC.md)
-- **AI Tools Setup**: See [SETUP.md](SETUP.md) for Codex, Claude Code, and RooCode configuration
-- **Support**: Workshop facilitators will be available for questions
-
-## Starter Template
-
-A Next.js starter template is available in the `hackathon-starter/` folder.
-
-**Tech Stack**: Next.js 15, TypeScript, Tailwind CSS, Jest
-
-**Requirements**: Node.js 18+
-
-**Quick Start**:
-```bash
-cd hackathon-starter
-npm install
-npm run dev
-```
-
-The app will run at `http://localhost:3000`
+**Duration**: 2 hours
+**Participants**: ~20 mx ai engineers (5 teams)
+**Goal**: Build a working MVP with quality, design, and smart AI usage
 
 ---
 
-Good luck and happy coding! Remember: it's not just about features—quality, design, and effective AI usage matter equally.
+## 🕒 Schedule
+
+| Time          | Duration | Activity                                                                                                           |
+| ------------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
+| 00:00 – 00:15 | 15 min   | **Introduction to Agentic Coding**  <br>• What is agentic coding?  <br>• Tools & mindset  <br>• Challenge overview |
+| 00:15 – 00:20 | 5 min    | **Team Formation** <br>Balance AI experience levels                                                                |
+| 00:20 – 01:20 | 60 min   | **Coding Sprint** <br>Build the MVP using the starter template                                                     |
+| 01:20 – 01:30 | 10 min   | **Break + Review** <br>Progress check & demo prep                                                                  |
+| 01:30 – 01:55 | 25 min   | **Team Presentations** <br>5 min per team                                                                          |
+| 01:55 – 02:00 | 5 min    | **Judging & Wrap-Up** <br>Winner announcement & feedback                                                           |
+
+---
+
+## 👥 Team Formation
+
+Each team should include mixed experience levels:
+
+| Level       | Description                       |
+| ----------- | --------------------------------- |
+| 🟢 Beginner | Rarely uses AI tools              |
+| 🟡 Casual   | Uses ChatGPT occasionally         |
+| 🔵 Regular  | Uses Copilot/Cursor daily         |
+| 🔶 Advanced | Builds with multi-agent workflows |
+
+---
+
+## 🎯 The Challenge
+
+**Objective:** Build a mini-platform to track game results and rankings.
+See [`SPEC.md`](SPEC.md) for details.
+
+### MVP Requirements
+
+* User creation (username)
+* Game creation (with image upload)
+* Result submission
+* Scoreboard view
+
+### Bonus
+
+* Persistent data
+* Creative UI/UX
+* Smart AI-driven additions
+
+---
+
+## 🧩 Evaluation Criteria
+
+| Category       | Weight | Description                                                      |
+| -------------- | ------ | ---------------------------------------------------------------- |
+| Functional     | 50%    | MVP works and core flow complete                                 |
+| Non-Functional | 50%    | Clean code, thoughtful design, innovation, and agentic use of AI |
+
+---
+
+## 🎤 Presentation (5 min per team)
+
+1. **Demo** – Show your running app
+2. **Architecture** – Use AI to summarize or visualize
+3. **AI Techniques** – How you used agentic coding
+4. **Unique Twist** – What makes your solution special
+
+---
+
+## ⚙️ Setup & Resources
+
+* **Starter Template:** `hackathon-starter/`
+  Stack: Next.js 15, TypeScript, Tailwind
+
+  ```bash
+  cd hackathon-starter
+  npm install
+  npm run dev
+  ```
+* **Docs:**
+
+  * [`SETUP.md`](SETUP.md) → AI tool setup (Codex, Claude Code, RooCode)
+  * [`HANDOUT.md`](HANDOUT.md) → Troubleshooting & hints
+
+---
+
+## 🏆 Awards
+
+Prizes for the top teams based on total score.
+Focus on **quality + creativity + agentic AI collaboration**, not just speed.
